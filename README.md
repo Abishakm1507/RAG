@@ -1,4 +1,4 @@
-# AI Resume Analyzer (RAG Project)
+# RAG System
 
 This repository implements a **Retrieval-Augmented Generation (RAG)** service that
 allows users to ask questions about the contents of a PDF knowledge base and
