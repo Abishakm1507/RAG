@@ -76,28 +76,3 @@ List available in `requirements.txt`. Key libraries:
 * faiss-cpu – vector store
 * langchain_huggingface, langchain-groq – connectors to external LLMs
 
-
----
-
-## 🛠 Development Tips
-
-* Add tests under `tests/` (not yet present) and run with `pytest`.
-* To experiment with another LLM provider, modify `RAGEngine._initialize` and
-  update dependencies accordingly.
-* Tweak chunk size/overlap in config for different document types.
-* Consider caching the FAISS index to disk for faster restarts.
-
----
-
-## ✅ Next Steps / To Do
-
-1. Add more robust error handling and logging.
-2. Support multiple document formats (e.g. Word, text files).
-3. Add authentication to the API if exposing publicly.
-4. Write comprehensive tests for each component.
-
----
-
-Thanks for using the RAG project! Contributions and improvements are welcome.
-
-Feel free to adapt this README further as your project evolves.
